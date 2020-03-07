@@ -6,7 +6,7 @@ body{
 /*--- navigation bar ---*/
 
 .navbar {
-    background: #6ab446;
+    background: #252e2e;
 }
 
 .nav-link,
@@ -54,11 +54,24 @@ body{
 }
 
 .description h1{
-    color:hsla(0, 95%, 38%, 0.884);
+    color:#5bcace;
 }
 
 .description p{
     color:#fff;
     font-size:1.3rem;
     line-height: 1.5;
+}
+
+.description button{
+    border:1px solid #5bcace;
+    background:#1b2324;
+    border-radius:30;
+    color:#5bcace;
+}
+
+.description button:hover {
+    border:1px #fff;
+    background:#fff;
+    color:#000;
 }
