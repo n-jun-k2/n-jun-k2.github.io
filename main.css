@@ -98,3 +98,20 @@ body{
     max-width:100%;
     height:auto;
 }
+
+.features .form-control,
+.features input{
+    border-radius: 0;
+}
+
+.features .btn{
+    background-color:#5bcace;
+    border: 1px solid #5bcace;
+    color: #fff;
+    margin-top:20px;
+}
+
+.features .btn:hover {
+    background-color:#333;
+    border: 1px solid #333;
+}
